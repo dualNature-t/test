@@ -1,0 +1,11 @@
+.editor {
+    padding: 4px 11px;
+  }
+
+.editor .mce-content-body {
+    min-height: 500px;
+    outline: none;
+    &::placeholder {
+        color: #f40;
+    }
+}

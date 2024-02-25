@@ -1,0 +1,22 @@
+.splitArea {
+    position: absolute;
+    cursor: all-scroll;
+    user-select: none;
+}
+
+.preview {
+    position: relative;
+    width: 400px;
+    max-height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.preview_img {
+    display: block;
+}
+
+.slider, .shaper {
+    width: 400px;
+    margin: auto;
+}
