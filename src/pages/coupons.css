@@ -1,0 +1,30 @@
+.coupon_businessCards {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 45px 28px 15px;
+}
+.coupon_businessCards p {
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 0 10px;
+  z-index: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.coupon_businessCards:before {
+  position: absolute;
+  left: 30px;
+  top: 65px;
+  width: calc(100% - 60px);
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  content: "";
+}
+.dazdataMic-editor-content img {
+  max-width: 100%;
+}

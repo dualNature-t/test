@@ -1,0 +1,54 @@
+.normalTable_container {
+  position: relative;
+}
+
+.normalTable_container .ant-table-footer {
+  padding: 0;
+}
+
+.normalTable_container .ant-table-title {
+  height: 50px;
+  padding: 0;
+}
+
+.normalTable_container .ant-table-wrapper,
+.normalTable_container .ant-spin-nested-loading,
+.normalTable_container .ant-spin-container,
+.normalTable_container .ant-table,
+.normalTable_container .ant-table-body {
+  height: 100%;
+}
+
+.normalTable_container .ant-table-container {
+  height: calc(100% - 101px);
+}
+
+.normalTable_container .ant-table-body {
+  /* height: 788px; */
+}
+
+.normalTable_selectHeader {
+  position: absolute;
+  left: 50px;
+  top: 51px;
+  width: calc(100% - 50px);
+  height: 54px;
+  padding: 0 16px;
+}
+
+.normalTable_header {
+  padding: 0 20px;
+  height: 100%;
+}
+
+.normalTable_footer {
+  height: 50px;
+  padding: 0 16px;
+}
+
+.normalTable_filter {
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
